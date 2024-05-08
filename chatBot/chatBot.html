@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="botStyle.css" />
+    <script src="bot.js" defer></script>
+    <script src="response.js"defer></script>
+    <title>AI Chatbot - Personal Meal assistant</title>
+</head>
+<body>
+    <div class="emotions">
+        <img src="emotions/angry1.png">
+    </div>
+    
+    <div class="container">
+        
+        <div class="chat-header">
+            <div class="title"> Let's have a Chat </div>
+        </div>
+        <div class="chat-contain">
+            <div class="loading hide">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+
+            </div>
+        </div>
+
+
+        
+        <div class="suggestion-container" style="display: none;"></div>
+
+        
+        <div class="chat-input">
+            <div class="message-input">
+                <input type="text" id="msgInput" placeholder="Type here..." autofocus>
+            </div>
+            <div class="refresh">
+                <img src="icons/refresh.png" alt="refresh" width="22" height="22"/>
+            </div>
+            <div class="msgSend">
+                <img src="icons/send.png" alt="send"/>
+            </div>
+        </div>
+        
+       
+    </div>
+</body>
+</html>
